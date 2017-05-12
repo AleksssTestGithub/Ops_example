@@ -26,8 +26,7 @@ int main()
 	cout << endl;
 	cout << a1["x"] << endl;
 
-	int t1=0, t2=0, t3 = 0;
-	t1 = t2 = t3 = 0;
+	cout << a << endl;;
 	_getch();
 	return 0;
 }

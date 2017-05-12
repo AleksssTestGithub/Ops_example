@@ -63,3 +63,9 @@ Integer::Integer()
 Integer::~Integer()
 {
 }
+
+ostream & operator<<(ostream & s, const Integer & i)
+{
+	s << i.getInteger();
+	return s;
+}
