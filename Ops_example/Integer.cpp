@@ -69,3 +69,12 @@ ostream & operator<<(ostream & s, const Integer & i)
 	s << i.getInteger();
 	return s;
 }
+
+istream & operator >> (istream & s, Integer & i)
+{
+	int intgr;
+	int intgr2;
+	s >> intgr >> intgr2;
+	i.setInteger(intgr2);
+	return s;
+}

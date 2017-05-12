@@ -24,7 +24,7 @@ public:
 	Integer& operator=(const Integer& i);
 
 	friend ostream& operator<<(ostream &s, const Integer& i);
-
+	friend istream& operator>>(istream &s, Integer& i);
 	Integer(int);
 	Integer();
 	~Integer();

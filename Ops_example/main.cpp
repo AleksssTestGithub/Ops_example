@@ -26,7 +26,9 @@ int main()
 	cout << endl;
 	cout << a1["x"] << endl;
 
-	cout << a << endl;;
+	cout << a << endl;
+	cin >> a;
+	cout << a << endl;
 	_getch();
 	return 0;
 }
